@@ -1,6 +1,9 @@
 #include <iostream>
 #include "BinarySearchTree.h"
 #include "TreeNode.h"
+#include "LinkedList.h"
+#include "ListNode.h"
+#include "Stack.h"
 #include <vector>
 
 template<typename T>
@@ -38,8 +41,74 @@ void testBST()
     log(bst.size());
 }
 
+void testLinkedList()
+{
+    ListNode* node = new ListNode(5);
+    LinkedList ll(node);
+    log("##################################");
+    log("########### Linked List ##########");
+    log("##################################");
+    log("----Testing Appending----");
+    ll.print();
+    ll.append_last(7);
+    ll.print();
+    ll.append_last(1);
+    ll.print();
+    ll.append_front(-3);
+    ll.print();
+    ll.append_front(4);
+    ll.print();
+    ll.insert_at(9, 2);
+    ll.print();
+    log("----Testing Removal----");
+    ll.remove_front();
+    ll.print();
+    ll.remove_last();
+    ll.print();
+    ll.remove_at(2);
+    ll.print();
+    log("----Testing Finding----");
+    log(ll.find(7) ? "True" : "False"); 
+    log(ll.find(-1) ? "True" : "False");
+    log("----Testing Length----");
+    log(ll.length());
+    log("----Testing Reverse----");
+    ll.reverse(ll.get_root());
+    ll.print();
+}
+
+void testStack()
+{
+    Stack<int> st;
+    log("##################################");
+    log("############# Stack ##############");
+    log("##################################");
+    log("----Testing Empty----");
+    st.print();
+    log(st.empty() == 1 ? "True" : "False");
+    log("----Testing Push----");
+    st.push(1);
+    st.print();
+    st.push(3);
+    st.print();
+    st.push(5);
+    st.print();
+    st.push(7);
+    st.print();
+    log("----Testing Pop----");
+    st.pop();
+    st.print();
+    log("----Testing Top----");
+    log(st.top());
+    log("----Testing Search----");
+    log(st.search(2));
+    log(st.search(3));
+}
+
 int main()
 {
-    testBST();
+    // testBST();
+    // testLinkedList();
+    testStack();
     return 0;
 }

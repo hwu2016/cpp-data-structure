@@ -19,7 +19,9 @@ public:
     int remove_at(int);
     bool find(int);
     int length();
+    ListNode* get_root();
     ListNode* reverse(ListNode*);
+    void print();
 };
 
 
