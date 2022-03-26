@@ -111,11 +111,56 @@ CMakeFiles/start.dir/src/BinarySearchTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/BinarySearchTree.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/BinarySearchTree.cpp -o CMakeFiles/start.dir/src/BinarySearchTree.cpp.s
 
+CMakeFiles/start.dir/src/ListNode.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/ListNode.cpp.o: ../src/ListNode.cpp
+CMakeFiles/start.dir/src/ListNode.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/start.dir/src/ListNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/ListNode.cpp.o -MF CMakeFiles/start.dir/src/ListNode.cpp.o.d -o CMakeFiles/start.dir/src/ListNode.cpp.o -c /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/ListNode.cpp
+
+CMakeFiles/start.dir/src/ListNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/ListNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/ListNode.cpp > CMakeFiles/start.dir/src/ListNode.cpp.i
+
+CMakeFiles/start.dir/src/ListNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/ListNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/ListNode.cpp -o CMakeFiles/start.dir/src/ListNode.cpp.s
+
+CMakeFiles/start.dir/src/LinkedList.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp
+CMakeFiles/start.dir/src/LinkedList.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/LinkedList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/LinkedList.cpp.o -MF CMakeFiles/start.dir/src/LinkedList.cpp.o.d -o CMakeFiles/start.dir/src/LinkedList.cpp.o -c /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/LinkedList.cpp
+
+CMakeFiles/start.dir/src/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/LinkedList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/LinkedList.cpp > CMakeFiles/start.dir/src/LinkedList.cpp.i
+
+CMakeFiles/start.dir/src/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/LinkedList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/LinkedList.cpp -o CMakeFiles/start.dir/src/LinkedList.cpp.s
+
+CMakeFiles/start.dir/src/Stack.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Stack.cpp.o: ../src/Stack.cpp
+CMakeFiles/start.dir/src/Stack.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/start.dir/src/Stack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Stack.cpp.o -MF CMakeFiles/start.dir/src/Stack.cpp.o.d -o CMakeFiles/start.dir/src/Stack.cpp.o -c /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/Stack.cpp
+
+CMakeFiles/start.dir/src/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Stack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/Stack.cpp > CMakeFiles/start.dir/src/Stack.cpp.i
+
+CMakeFiles/start.dir/src/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Stack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/Stack.cpp -o CMakeFiles/start.dir/src/Stack.cpp.s
+
 # Object files for target start
 start_OBJECTS = \
 "CMakeFiles/start.dir/main.cpp.o" \
 "CMakeFiles/start.dir/src/TreeNode.cpp.o" \
-"CMakeFiles/start.dir/src/BinarySearchTree.cpp.o"
+"CMakeFiles/start.dir/src/BinarySearchTree.cpp.o" \
+"CMakeFiles/start.dir/src/ListNode.cpp.o" \
+"CMakeFiles/start.dir/src/LinkedList.cpp.o" \
+"CMakeFiles/start.dir/src/Stack.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
@@ -123,9 +168,12 @@ start_EXTERNAL_OBJECTS =
 ../bin/start: CMakeFiles/start.dir/main.cpp.o
 ../bin/start: CMakeFiles/start.dir/src/TreeNode.cpp.o
 ../bin/start: CMakeFiles/start.dir/src/BinarySearchTree.cpp.o
+../bin/start: CMakeFiles/start.dir/src/ListNode.cpp.o
+../bin/start: CMakeFiles/start.dir/src/LinkedList.cpp.o
+../bin/start: CMakeFiles/start.dir/src/Stack.cpp.o
 ../bin/start: CMakeFiles/start.dir/build.make
 ../bin/start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

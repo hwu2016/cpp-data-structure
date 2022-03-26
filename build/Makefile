@@ -177,6 +177,78 @@ src/BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/BinarySearchTree.cpp.s
 .PHONY : src/BinarySearchTree.cpp.s
 
+src/LinkedList.o: src/LinkedList.cpp.o
+.PHONY : src/LinkedList.o
+
+# target to build an object file
+src/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/LinkedList.cpp.o
+.PHONY : src/LinkedList.cpp.o
+
+src/LinkedList.i: src/LinkedList.cpp.i
+.PHONY : src/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/LinkedList.cpp.i
+.PHONY : src/LinkedList.cpp.i
+
+src/LinkedList.s: src/LinkedList.cpp.s
+.PHONY : src/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/LinkedList.cpp.s
+.PHONY : src/LinkedList.cpp.s
+
+src/ListNode.o: src/ListNode.cpp.o
+.PHONY : src/ListNode.o
+
+# target to build an object file
+src/ListNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.o
+.PHONY : src/ListNode.cpp.o
+
+src/ListNode.i: src/ListNode.cpp.i
+.PHONY : src/ListNode.i
+
+# target to preprocess a source file
+src/ListNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.i
+.PHONY : src/ListNode.cpp.i
+
+src/ListNode.s: src/ListNode.cpp.s
+.PHONY : src/ListNode.s
+
+# target to generate assembly for a file
+src/ListNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.s
+.PHONY : src/ListNode.cpp.s
+
+src/Stack.o: src/Stack.cpp.o
+.PHONY : src/Stack.o
+
+# target to build an object file
+src/Stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Stack.cpp.o
+.PHONY : src/Stack.cpp.o
+
+src/Stack.i: src/Stack.cpp.i
+.PHONY : src/Stack.i
+
+# target to preprocess a source file
+src/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Stack.cpp.i
+.PHONY : src/Stack.cpp.i
+
+src/Stack.s: src/Stack.cpp.s
+.PHONY : src/Stack.s
+
+# target to generate assembly for a file
+src/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Stack.cpp.s
+.PHONY : src/Stack.cpp.s
+
 src/TreeNode.o: src/TreeNode.cpp.o
 .PHONY : src/TreeNode.o
 
@@ -216,6 +288,15 @@ help:
 	@echo "... src/BinarySearchTree.o"
 	@echo "... src/BinarySearchTree.i"
 	@echo "... src/BinarySearchTree.s"
+	@echo "... src/LinkedList.o"
+	@echo "... src/LinkedList.i"
+	@echo "... src/LinkedList.s"
+	@echo "... src/ListNode.o"
+	@echo "... src/ListNode.i"
+	@echo "... src/ListNode.s"
+	@echo "... src/Stack.o"
+	@echo "... src/Stack.i"
+	@echo "... src/Stack.s"
 	@echo "... src/TreeNode.o"
 	@echo "... src/TreeNode.i"
 	@echo "... src/TreeNode.s"
