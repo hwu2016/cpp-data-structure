@@ -1,33 +1,42 @@
 #include "LinkedList.h"
 #include <iostream>
 
-LinkedList::LinkedList(ListNode* node)
-    :root(node){}
+LinkedList::LinkedList()
+    :root(nullptr), tail(nullptr){}
 
-LinkedList::~LinkedList()
-{
-    delete this->root;
-}
+LinkedList::~LinkedList(){};
 
 //Add a node in the end
 int LinkedList::append_last(int v)
 {
-    ListNode* p = this->root; 
-    while(p -> next)
+    ListNode* p = new ListNode(v);
+    if (!root)
     {
-        p = p -> next;
+        this->root = p;
+        this->tail = p;
     }
-    p -> next = new ListNode(v);
+    else 
+    {
+        this->tail->next = p;
+        this->tail = p;
+    }
     return 0;
 }
 
 //Add a node in the front
 int LinkedList::append_front(int v)
 {
-    ListNode* p = this -> root;
-    ListNode* q = new ListNode(v);
-    q->next = p;
-    this -> root = q;
+    ListNode* p = new ListNode(v);
+    if (!root)
+    {
+        this->root = p;
+        this->tail = p;
+    }
+    else 
+    {
+        p->next = this->root;
+        this->root = p;
+    }
     return 0;
 }
 

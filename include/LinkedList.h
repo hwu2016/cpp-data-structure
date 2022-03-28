@@ -7,9 +7,10 @@ class LinkedList
 {
 private:
     ListNode* root;
+    ListNode* tail;
 
 public:
-    LinkedList(ListNode*);
+    LinkedList();
     ~LinkedList();
     int append_last(int);
     int append_front(int);

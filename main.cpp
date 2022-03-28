@@ -4,9 +4,10 @@
 #include "LinkedList.h"
 #include "ListNode.h"
 #include "Stack.h"
+#include "HashTable.h"
 #include <vector>
 
-template<typename T>
+template <typename T>
 void log(T msg)
 {
     std::cout << msg << std::endl;
@@ -14,7 +15,7 @@ void log(T msg)
 
 void testBST()
 {
-    TreeNode* root = new TreeNode(10);
+    TreeNode *root = new TreeNode(10);
     BinarySearchTree bst(root);
     log("##################################");
     log("####### Binary Search Tree #######");
@@ -43,12 +44,12 @@ void testBST()
 
 void testLinkedList()
 {
-    ListNode* node = new ListNode(5);
-    LinkedList ll(node);
+    LinkedList ll;
     log("##################################");
     log("########### Linked List ##########");
     log("##################################");
     log("----Testing Appending----");
+    ll.append_last(5);
     ll.print();
     ll.append_last(7);
     ll.print();
@@ -68,7 +69,7 @@ void testLinkedList()
     ll.remove_at(2);
     ll.print();
     log("----Testing Finding----");
-    log(ll.find(7) ? "True" : "False"); 
+    log(ll.find(7) ? "True" : "False");
     log(ll.find(-1) ? "True" : "False");
     log("----Testing Length----");
     log(ll.length());
@@ -105,10 +106,27 @@ void testStack()
     log(st.search(3));
 }
 
+void testHashTable()
+{
+    HashTable *ht = new HashTable();
+    log("##################################");
+    log("############ HashTable ###########");
+    log("##################################");
+    log("----Testing Insert----");
+    ht->insert(3);
+    ht->insert(10);
+    ht->insert(104);
+    ht->insert(105);
+    ht->insert(10);
+    log("----Print HashTable----");
+    ht->print();
+}
+
 int main()
 {
+    // testStack();
     // testBST();
     // testLinkedList();
-    testStack();
+    testHashTable();
     return 0;
 }
