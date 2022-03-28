@@ -1,3 +1,0 @@
-/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles/start.dir
-/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles/edit_cache.dir
-/Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/build/CMakeFiles/rebuild_cache.dir

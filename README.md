@@ -3,14 +3,8 @@
 ### Goal
 Training the c++ coding skills and the data structure for all c++ beginners.
 
-### How To Run the Testing Code
-```bash
-# In the source dir (example: ..../cpp-data-structure/)
-./bin/start
-```
-
-### How to Editing the Code
-Before DIY your own data structrue, make sure the related c++ environment and cmake (building tool) is installed.
+### How to Editing the Code and Run the Testing Code
+Make sure the related c++ environment (g++ or clang++) and cmake (building tool) is installed.
 
 Editing the head file (.h) in `/include` and the cpp file (.cpp) in `/src` if you need to custermize the project.
 
@@ -23,7 +17,7 @@ if new files are added, please update the `CMakeLists.txt` and include the new f
 cmake ..
 # linking all the files
 make
-# rerun the binary
+# Run the binary
 ../bin/start
 ```
 
