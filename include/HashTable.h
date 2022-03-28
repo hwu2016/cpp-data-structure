@@ -16,6 +16,7 @@ public:
     int h(int);
     bool find(int);
     void insert(int);
+    void remove(int);
     void print();
 };
 

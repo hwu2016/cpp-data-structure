@@ -1,8 +1,6 @@
 #include <iostream>
 #include "BinarySearchTree.h"
-#include "TreeNode.h"
 #include "LinkedList.h"
-#include "ListNode.h"
 #include "Stack.h"
 #include "HashTable.h"
 #include <vector>
@@ -118,7 +116,12 @@ void testHashTable()
     ht->insert(104);
     ht->insert(105);
     ht->insert(10);
-    log("----Print HashTable----");
+    ht->insert(205);
+    ht->print();
+    log("----Testing Remove----");
+    ht->remove(104);
+    ht->remove(10);
+    ht->remove(7);
     ht->print();
 }
 
@@ -126,7 +129,7 @@ int main()
 {
     // testStack();
     // testBST();
-    // testLinkedList();
-    testHashTable();
+    testLinkedList();
+    // testHashTable();
     return 0;
 }

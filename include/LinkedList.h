@@ -1,7 +1,14 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-#include "ListNode.h"
+struct ListNode
+{
+    int val;
+    ListNode* next;
+    ListNode(){}
+    ListNode(int val): val(val) {}
+    ~ListNode(){}
+};
 
 class LinkedList
 {
@@ -18,6 +25,7 @@ public:
     int remove_last();
     int remove_front();
     int remove_at(int);
+    void remove(int);
     bool find(int);
     int length();
     ListNode* get_root();

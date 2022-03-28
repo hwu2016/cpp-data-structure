@@ -39,9 +39,23 @@ void HashTable::insert(int k)
     }
 }
 
+void HashTable::remove(int k)
+{
+    if (!this->find(k))
+    {
+        std::cout << "No Such Element" << std::endl;
+    }
+    else
+    {
+        int i = this->h(k);
+        this->T[i]->remove(k);
+        std::cout << "Remove " << k << " Success!" << std::endl;
+    }
+}
+
 void HashTable::print()
 {
-    std::cout << "Table Start" << std::endl;
+    std::cout << "[[Table Start]]" << std::endl;
     for (int i = 0; i < this->size; i++)
     {
         if (this->T[i]->length() == 0)
@@ -51,5 +65,5 @@ void HashTable::print()
         std::cout << "Index: " << i << " --- ";
         this->T[i]->print();
     }
-    std::cout << "Table End" << std::endl;
+    std::cout << "[[Table End]]" << std::endl;
 }

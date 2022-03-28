@@ -1,5 +1,5 @@
-#include "LinkedList.h"
 #include <iostream>
+#include "LinkedList.h"
 
 LinkedList::LinkedList()
     :root(nullptr), tail(nullptr){}
@@ -97,6 +97,33 @@ int LinkedList::remove_at(int index)
     }
     p -> next = p -> next -> next;
     return 0;
+}
+
+//remove the node where val equals the given value
+void LinkedList::remove(int k)
+{
+    ListNode* head = this->root;
+    ListNode* pre = nullptr;
+    if (head == nullptr)
+    {
+        std::cout << "Empty LinkedList ERROR" << std::endl;
+        return;
+    }
+    if (head->val == k)
+    {
+        this->root = this->root->next;
+        return;
+    }
+    while (head->next)
+    {
+        pre = head;
+        head = head -> next;
+        if (head->val == k)
+        {
+            pre -> next = pre->next->next;
+            return;
+        }
+    }
 }
 
 //return true if at least one element equals to the given value
