@@ -12,7 +12,10 @@ After editing, enter the directory `/build` and run the code below.
 
 if new files are added, please update the `CMakeLists.txt` and include the new files in the `add_executable` part.
 ```bash
-# /build
+# {SOURCE_DIR}/
+mkdir build
+mkdir bin
+cd build
 # recompile the project based on CMakeList.txt
 cmake ..
 # linking all the files
@@ -25,20 +28,24 @@ make
 If everything goes well, you should see the output in the console.
 ```bash
 ##################################
-############# Stack ##############
+########### Linked List ##########
 ##################################
-----Testing Empty----
-Empty Stack
-True
-----Testing Push----
-1
-1 , 3
-1 , 3 , 5
-1 , 3 , 5 , 7
-----Testing Pop----
-1 , 3 , 5
-----Testing Top----
+----Testing Appending----
 5
-----Testing Search----
--1
+5 -> 7
+5 -> 7 -> 1
+-3 -> 5 -> 7 -> 1
+4 -> -3 -> 5 -> 7 -> 1
+4 -> -3 -> 9 -> 5 -> 7 -> 1
+----Testing Removal----
+-3 -> 9 -> 5 -> 7 -> 1
+-3 -> 9 -> 5 -> 7
+-3 -> 9 -> 7
+----Testing Finding----
+True
+False
+----Testing Length----
+3
+----Testing Reverse----
+7 -> 9 -> -3
 ```
