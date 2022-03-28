@@ -1,7 +1,6 @@
 CMakeFiles/start.dir/src/BinarySearchTree.cpp.o: \
   /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/BinarySearchTree.cpp \
   /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/BinarySearchTree.h \
-  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/TreeNode.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \

@@ -232,9 +232,9 @@ CMakeFiles/start.dir/main.cpp.o: ../main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
   ../include/BinarySearchTree.h \
-  ../include/TreeNode.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
+  ../include/TreeNode.h \
   ../include/LinkedList.h \
   ../include/ListNode.h \
   ../include/Stack.h \
@@ -243,7 +243,6 @@ CMakeFiles/start.dir/main.cpp.o: ../main.cpp \
 
 CMakeFiles/start.dir/src/BinarySearchTree.cpp.o: ../src/BinarySearchTree.cpp \
   ../include/BinarySearchTree.h \
-  ../include/TreeNode.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -879,9 +878,6 @@ CMakeFiles/start.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference
 
-CMakeFiles/start.dir/src/ListNode.cpp.o: ../src/ListNode.cpp \
-  ../include/ListNode.h
-
 CMakeFiles/start.dir/src/Stack.cpp.o: ../src/Stack.cpp \
   ../include/Stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/deque \
@@ -1116,13 +1112,6 @@ CMakeFiles/start.dir/src/Stack.cpp.o: ../src/Stack.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference
 
-CMakeFiles/start.dir/src/TreeNode.cpp.o: ../src/TreeNode.cpp \
-  ../include/TreeNode.h
-
-
-../src/TreeNode.cpp:
-
-../src/ListNode.cpp:
 
 ../src/LinkedList.cpp:
 
@@ -1134,9 +1123,9 @@ CMakeFiles/start.dir/src/TreeNode.cpp.o: ../src/TreeNode.cpp \
 
 ../include/LinkedList.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector:
-
 ../include/TreeNode.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector:
 
 ../include/Stack.h:
 

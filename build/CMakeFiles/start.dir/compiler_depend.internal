@@ -233,9 +233,9 @@ CMakeFiles/start.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/BinarySearchTree.h
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/TreeNode.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer
+ /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/TreeNode.h
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/LinkedList.h
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/ListNode.h
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/Stack.h
@@ -245,7 +245,6 @@ CMakeFiles/start.dir/main.cpp.o
 CMakeFiles/start.dir/src/BinarySearchTree.cpp.o
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/BinarySearchTree.cpp
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/BinarySearchTree.h
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/TreeNode.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h
@@ -883,10 +882,6 @@ CMakeFiles/start.dir/src/LinkedList.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference
 
-CMakeFiles/start.dir/src/ListNode.cpp.o
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/ListNode.cpp
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/ListNode.h
-
 CMakeFiles/start.dir/src/Stack.cpp.o
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/Stack.cpp
  /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/Stack.h
@@ -1121,8 +1116,4 @@ CMakeFiles/start.dir/src/Stack.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference
-
-CMakeFiles/start.dir/src/TreeNode.cpp.o
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/src/TreeNode.cpp
- /Users/wuhan/Desktop/cherno-cpp/cpp_data_structure/include/TreeNode.h
 

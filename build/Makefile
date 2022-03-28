@@ -225,30 +225,6 @@ src/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/LinkedList.cpp.s
 .PHONY : src/LinkedList.cpp.s
 
-src/ListNode.o: src/ListNode.cpp.o
-.PHONY : src/ListNode.o
-
-# target to build an object file
-src/ListNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.o
-.PHONY : src/ListNode.cpp.o
-
-src/ListNode.i: src/ListNode.cpp.i
-.PHONY : src/ListNode.i
-
-# target to preprocess a source file
-src/ListNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.i
-.PHONY : src/ListNode.cpp.i
-
-src/ListNode.s: src/ListNode.cpp.s
-.PHONY : src/ListNode.s
-
-# target to generate assembly for a file
-src/ListNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/ListNode.cpp.s
-.PHONY : src/ListNode.cpp.s
-
 src/Stack.o: src/Stack.cpp.o
 .PHONY : src/Stack.o
 
@@ -273,30 +249,6 @@ src/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Stack.cpp.s
 .PHONY : src/Stack.cpp.s
 
-src/TreeNode.o: src/TreeNode.cpp.o
-.PHONY : src/TreeNode.o
-
-# target to build an object file
-src/TreeNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/TreeNode.cpp.o
-.PHONY : src/TreeNode.cpp.o
-
-src/TreeNode.i: src/TreeNode.cpp.i
-.PHONY : src/TreeNode.i
-
-# target to preprocess a source file
-src/TreeNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/TreeNode.cpp.i
-.PHONY : src/TreeNode.cpp.i
-
-src/TreeNode.s: src/TreeNode.cpp.s
-.PHONY : src/TreeNode.s
-
-# target to generate assembly for a file
-src/TreeNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/TreeNode.cpp.s
-.PHONY : src/TreeNode.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -318,15 +270,9 @@ help:
 	@echo "... src/LinkedList.o"
 	@echo "... src/LinkedList.i"
 	@echo "... src/LinkedList.s"
-	@echo "... src/ListNode.o"
-	@echo "... src/ListNode.i"
-	@echo "... src/ListNode.s"
 	@echo "... src/Stack.o"
 	@echo "... src/Stack.i"
 	@echo "... src/Stack.s"
-	@echo "... src/TreeNode.o"
-	@echo "... src/TreeNode.i"
-	@echo "... src/TreeNode.s"
 .PHONY : help
 
 
