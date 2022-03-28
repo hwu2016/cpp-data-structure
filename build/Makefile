@@ -177,6 +177,30 @@ src/BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/BinarySearchTree.cpp.s
 .PHONY : src/BinarySearchTree.cpp.s
 
+src/HashTable.o: src/HashTable.cpp.o
+.PHONY : src/HashTable.o
+
+# target to build an object file
+src/HashTable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/HashTable.cpp.o
+.PHONY : src/HashTable.cpp.o
+
+src/HashTable.i: src/HashTable.cpp.i
+.PHONY : src/HashTable.i
+
+# target to preprocess a source file
+src/HashTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/HashTable.cpp.i
+.PHONY : src/HashTable.cpp.i
+
+src/HashTable.s: src/HashTable.cpp.s
+.PHONY : src/HashTable.s
+
+# target to generate assembly for a file
+src/HashTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/HashTable.cpp.s
+.PHONY : src/HashTable.cpp.s
+
 src/LinkedList.o: src/LinkedList.cpp.o
 .PHONY : src/LinkedList.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... src/BinarySearchTree.o"
 	@echo "... src/BinarySearchTree.i"
 	@echo "... src/BinarySearchTree.s"
+	@echo "... src/HashTable.o"
+	@echo "... src/HashTable.i"
+	@echo "... src/HashTable.s"
 	@echo "... src/LinkedList.o"
 	@echo "... src/LinkedList.i"
 	@echo "... src/LinkedList.s"
