@@ -23,13 +23,14 @@ private:
 
 
 public:
-    BinarySearchTree(TreeNode*);
+    BinarySearchTree();
     ~BinarySearchTree();
-    int insert(TreeNode*);
+    int insert(int);
     bool find(int);
     int depth(TreeNode*);
     std::vector<int> list();
     int size();
+    TreeNode* get_root() const;
 };
 
 

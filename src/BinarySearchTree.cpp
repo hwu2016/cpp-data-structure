@@ -1,39 +1,50 @@
 #include "BinarySearchTree.h"
 #include <algorithm>
 
-BinarySearchTree::BinarySearchTree(TreeNode* root)
-    :root(root) {}
+BinarySearchTree::BinarySearchTree():root(nullptr){}
 
 BinarySearchTree::~BinarySearchTree()
 {
-    delete root;
+    if(this-> root)
+    delete this->root;
 }
 
 //insert a node to BST, return 0 if success
-int BinarySearchTree::insert(TreeNode* node)
+int BinarySearchTree::insert(int v)
 {
+    if (!root)
+    {
+        this->root = new TreeNode(v);
+        return 0;
+    }
     TreeNode* p = this -> root;
     while (p)
     {
-        if (node -> val > p -> val)
+        if (p->val > v)
         {
-            if (p -> right == nullptr)
+            if (p->left) 
             {
-                p -> right = node;
+                p = p -> left;
+            } 
+            else
+            {
+                p -> left = new TreeNode(v);
                 return 0;
             }
-            p = p -> right;
         }
-        else if (node -> val < p -> val)
+        else if (p->val < v)
         {
-            if (p -> left == nullptr)
+            if (p->right) 
             {
-                p -> left = node;
+                p = p -> right;
+            } 
+            else
+            {
+                p -> right = new TreeNode(v);
                 return 0;
             }
-            p = p -> left;
         }
-        else if (node -> val == p -> val)
+        else 
         {
             break;
         }
@@ -91,4 +102,9 @@ std::vector<int> BinarySearchTree::list()
 int BinarySearchTree::size()
 {
     return list().size();
+}
+
+TreeNode* BinarySearchTree::get_root() const
+{
+    return this->root;
 }

@@ -13,31 +13,32 @@ void log(T msg)
 
 void testBST()
 {
-    TreeNode *root = new TreeNode(10);
-    BinarySearchTree bst(root);
+    BinarySearchTree* bst = new BinarySearchTree();
     log("##################################");
     log("####### Binary Search Tree #######");
     log("##################################");
     log("----Testing Insert----");
-    log(bst.insert(new TreeNode(3)) == 0 ? "Insert Success" : "FAIL");
-    log(bst.insert(new TreeNode(5)) == 0 ? "Insert Success" : "FAIL");
-    log(bst.insert(new TreeNode(13)) == 0 ? "Insert Success" : "FAIL");
-    log(bst.insert(new TreeNode(11)) == 0 ? "Insert Success" : "FAIL");
-    log(bst.insert(new TreeNode(9)) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(10) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(3) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(5) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(13) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(11) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(9) == 0 ? "Insert Success" : "FAIL");
+    log(bst->insert(9) == 0 ? "Insert Success" : "FAIL");
     log("----Testing Depth----");
-    log(bst.depth(root));
+    log(bst->depth(bst->get_root()));
     log("----Testing Finding Element----");
-    log(bst.find(5) > 0 ? "TRUE" : "FALSE");
-    log(bst.find(6) > 0 ? "TRUE" : "FALSE");
+    log(bst->find(5) > 0 ? "TRUE" : "FALSE");
+    log(bst->find(6) > 0 ? "TRUE" : "FALSE");
     log("----Testing Listing----");
-    std::vector<int> v = bst.list();
+    std::vector<int> v = bst->list();
     for (auto x : v)
     {
         std::cout << x << ",";
     }
     log("");
     log("----Testing Size----");
-    log(bst.size());
+    log(bst->size());
 }
 
 void testLinkedList()
@@ -128,8 +129,8 @@ void testHashTable()
 int main()
 {
     // testStack();
-    // testBST();
-    testLinkedList();
+    testBST();
+    // testLinkedList();
     // testHashTable();
     return 0;
 }
