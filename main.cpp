@@ -3,14 +3,39 @@
 #include "LinkedList.h"
 #include "Stack.h"
 #include "HashTable.h"
+#include "AVLTree.h"
 #include <vector>
 
+//utils
 template <typename T>
 void log(T msg)
 {
     std::cout << msg << std::endl;
 }
 
+void printBT(const std::string& prefix, const AVLTreeNode<int>* node, bool isLeft)
+{
+    if( node != nullptr )
+    {
+        std::cout << prefix;
+
+        std::cout << (isLeft ? "├──" : "└──" );
+
+        // print the value of the node
+        std::cout << node->val << std::endl;
+
+        // enter the next tree level - left and right branch
+        printBT( prefix + (isLeft ? "│   " : "    "), node->left, true);
+        printBT( prefix + (isLeft ? "│   " : "    "), node->right, false);
+    }
+}
+
+void printBT(const AVLTreeNode<int>* node)
+{
+    printBT("", node, false);    
+}
+
+//tests
 void testBST()
 {
     BinarySearchTree* bst = new BinarySearchTree();
@@ -126,10 +151,33 @@ void testHashTable()
     ht->print();
 }
 
+void testAVL()
+{
+    AVLTree<int>* avl = new AVLTree<int>();
+    log("##################################");
+    log("############ AVL Tree ############");
+    log("##################################");
+    std::cout << "Insert the root: " << std::endl;
+    avl->insert(10);
+    printBT(avl->get_root());
+    std::cout << "Adding two nodes: " << std::endl;
+    avl->insert(3);
+    avl->insert(2);
+    printBT(avl->get_root());
+    std::cout << "Adding more nodes: " << std::endl;
+    avl->insert(14);
+    avl->insert(15);
+    avl->insert(6);
+    avl->insert(8);
+    avl->insert(9);
+    printBT(avl->get_root());
+}
+
 int main()
 {
+    testAVL();
     // testStack();
-    testBST();
+    // testBST();
     // testLinkedList();
     // testHashTable();
     return 0;
